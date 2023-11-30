@@ -21,8 +21,8 @@ class MyApp extends StatelessWidget {
       ),
       home: const HomePage(),
       routes: {
-        '/gpt-3': (context) => const GPT3Page(),
-        '/fine-tuned': (context) => const FineTunedPage()
+        '/gpt-3': (context) => GPT3Page(),
+        '/fine-tuned': (context) =>  FineTunedPage()
       },
     );
   }
