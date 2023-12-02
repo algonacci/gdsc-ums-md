@@ -41,6 +41,20 @@ class HomePage extends StatelessWidget {
               ),
             ],
           ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              InkWell(
+                onTap: () {
+                  Navigator.pushNamed(context, "/streaming");
+                },
+                child: const Button(
+                  text: "Streaming",
+                  icon: Icons.bubble_chart_outlined,
+                ),
+              ),
+            ],
+          ),
         ],
       ),
     );
